@@ -5,7 +5,7 @@
   "author": "Jeff <rustyangel@gmail.com> (https://tidaltheory.co)",
   "homepage": "https://github.com/stormwarning/zazen-semantic-release",
   "repository": "stormwarning/zazen-semantic-release",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "main": "index.js",
   "scripts": {
     "lint": "prettier-eslint '**/*.js' --list-different",
