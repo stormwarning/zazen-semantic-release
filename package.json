@@ -28,7 +28,7 @@
     "lint-staged": "^9.2.1",
     "prettier-eslint-cli": "^4.7.1",
     "semantic-release": "^15.13.19",
-    "travis-deploy-once": "^5.0.9"
+    "travis-deploy-once": "^5.0.11"
   },
   "keywords": [
     "semantic-release",
