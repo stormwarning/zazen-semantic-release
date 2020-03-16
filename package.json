@@ -1,6 +1,6 @@
 {
   "name": "@zazen/semantic-release",
-  "version": "0.1.2",
+  "version": "0.1.3",
   "description": "Automate releases, free of weariness and confusion",
   "keywords": [
     "semantic-release",
