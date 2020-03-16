@@ -5,6 +5,19 @@
 
 All notable changes to this project will be documented in this file.
 
+<a name="0.1.3"></a>
+
+### [0.1.3](https://github.com/stormwarning/zazen-semantic-release/compare/v0.1.2...v0.1.3) — 2020-03-16
+
+#### Other updates
+
+- 💚 Update CI node versions [[`76c9b95`](https://github.com/stormwarning/zazen-semantic-release/commit/76c9b95)]
+- 📚 Fix up changelog formatting [[`8b457ee`](https://github.com/stormwarning/zazen-semantic-release/commit/8b457ee)]
+
+#### Changed
+
+- 📦 Upgrade dependencies [[`db47879`](https://github.com/stormwarning/zazen-semantic-release/commit/db47879)]
+
 <a name="0.1.2"></a>
 
 ### [0.1.2](https://github.com/stormwarning/zazen-semantic-release/compare/v0.1.1...v0.1.2) — 2019-08-06
