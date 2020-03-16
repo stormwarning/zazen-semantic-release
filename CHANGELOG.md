@@ -27,13 +27,13 @@ All notable changes to this project will be documented in this file.
 
 <a name="0.1.1"></a>
 
-## [0.1.1](https://github.com/stormwarning/zazen-semantic-release/compare/v0.1.0...v0.1.1) — 2018-11-09
+### [0.1.1](https://github.com/stormwarning/zazen-semantic-release/compare/v0.1.0...v0.1.1) — 2018-11-09
 
-### Fixed
+#### Fixed
 
 - 🐛 Add skip-ci tag to release notes commit message ([79091c1](https://github.com/stormwarning/zazen-semantic-release/commit/79091c1))
 
-### Other updates
+#### Other updates
 
 - 📝 Add configuration notes ([04c4da9](https://github.com/stormwarning/zazen-semantic-release/commit/04c4da9))
 - ✅ Add Travis CI setup ([2100e1d](https://github.com/stormwarning/zazen-semantic-release/commit/2100e1d))
