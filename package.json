@@ -1,39 +1,20 @@
 {
   "name": "@zazen/semantic-release",
-  "description": "Automate releases, free of weariness and confusion",
-  "license": "ISC",
-  "author": "Jeff <rustyangel@gmail.com> (https://tidaltheory.co)",
-  "homepage": "https://github.com/stormwarning/zazen-semantic-release",
-  "repository": "stormwarning/zazen-semantic-release",
   "version": "0.1.2",
-  "main": "index.js",
-  "scripts": {
-    "lint": "prettier-eslint '**/*.js' --list-different",
-    "test": "npm run lint"
-  },
-  "dependencies": {
-    "@semantic-release/changelog": "^3.0.4",
-    "@semantic-release/git": "^7.0.16",
-    "@semantic-release/github": "^5.4.2",
-    "@semantic-release/npm": "^5.1.13",
-    "@zazen/conventional-changelog": "^1.0.5"
-  },
-  "peerDependencies": {
-    "semantic-release": "^15.0.0"
-  },
-  "devDependencies": {
-    "@zazen/eslint-config": "^0.3.0",
-    "eslint": "^6.1.0",
-    "husky": "^3.0.2",
-    "lint-staged": "^9.2.1",
-    "prettier-eslint-cli": "^4.7.1",
-    "semantic-release": "^15.13.19",
-    "travis-deploy-once": "^5.0.11"
-  },
+  "description": "Automate releases, free of weariness and confusion",
   "keywords": [
     "semantic-release",
     "shareable config"
   ],
+  "homepage": "https://github.com/stormwarning/zazen-semantic-release",
+  "repository": "stormwarning/zazen-semantic-release",
+  "license": "ISC",
+  "author": "Jeff <rustyangel@gmail.com> (https://tidaltheory.co)",
+  "main": "index.js",
+  "scripts": {
+    "lint": "eslint '**/*.js'",
+    "test": "npm run lint"
+  },
   "husky": {
     "hooks": {
       "pre-commit": "lint-staged"
@@ -41,9 +22,33 @@
   },
   "lint-staged": {
     "*.js": [
-      "prettier-eslint --write",
+      "eslint --fix",
+      "git add"
+    ],
+    "package.json": [
+      "prettier --write",
       "git add"
     ]
+  },
+  "dependencies": {
+    "@semantic-release/changelog": "5.0.0",
+    "@semantic-release/git": "9.0.0",
+    "@semantic-release/github": "7.0.4",
+    "@semantic-release/npm": "7.0.4",
+    "@zazen/conventional-changelog": "1.0.5"
+  },
+  "devDependencies": {
+    "@zazen/eslint-config": "2.0.x",
+    "eslint": "6.8.x",
+    "husky": "4.2.x",
+    "lint-staged": "10.0.x",
+    "prettier": "1.19.x",
+    "prettier-plugin-packagejson": "2.0.x",
+    "semantic-release": "17.0.x",
+    "travis-deploy-once": "5.0.x"
+  },
+  "peerDependencies": {
+    "semantic-release": ">=16"
   },
   "release": {
     "extends": "./index.js"
