@@ -44,7 +44,7 @@
     "lint-staged": "10.0.x",
     "prettier": "1.19.x",
     "prettier-plugin-packagejson": "2.0.x",
-    "semantic-release": "17.0.x",
+    "semantic-release": "17.2.x",
     "travis-deploy-once": "5.0.x"
   },
   "peerDependencies": {
