@@ -1,0 +1,31 @@
+version: 2
+updates:
+- package-ecosystem: npm
+  directory: "/"
+  schedule:
+    interval: monthly
+    time: "12:00"
+  open-pull-requests-limit: 10
+  target-branch: upgrade-deps
+  versioning-strategy: increase
+  ignore:
+  - dependency-name: husky
+    versions:
+    - 4.3.6
+    - 4.3.8
+  - dependency-name: prettier-plugin-packagejson
+    versions:
+    - 2.2.8
+    - 2.2.9
+  - dependency-name: lint-staged
+    versions:
+    - 10.5.3
+  - dependency-name: "@semantic-release/npm"
+    versions:
+    - 7.0.9
+  - dependency-name: npm
+    versions:
+    - 6.14.10
+  - dependency-name: lodash
+    versions:
+    - 4.17.20
