@@ -41,7 +41,7 @@
     "@zazen/eslint-config": "2.0.x",
     "eslint": "6.8.x",
     "husky": "4.2.x",
-    "lint-staged": "10.0.x",
+    "lint-staged": "11.0.x",
     "prettier": "1.19.x",
     "prettier-plugin-packagejson": "2.0.x",
     "semantic-release": "17.0.x",
